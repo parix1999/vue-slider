@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+    <!-- Inizio con la creazione della pagina in maniera statica -->
+    <div id="app">
+        <div class="content container">
+            <div class="row">
+                <!-- freccia sx -->
+                <div class="col-2"></div>
+                <!-- immagine -->
+                <div :class="contentBoxPic" class="col-2">
+                    <img :src="listaImmagini[0]">
+                </div>
+                <!-- freccia dx -->
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
