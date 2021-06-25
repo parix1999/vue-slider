@@ -11,7 +11,7 @@
 
 /* --------------------------------- */
 .box-pic .fas{
-    color:#fff;
+    color:rgba(255, 255, 255, .7);
 }
 .box-pic .left{
     font-size:40px;
