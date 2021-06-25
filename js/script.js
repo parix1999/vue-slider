@@ -2,10 +2,11 @@
 Vue.config.devtools = true;
 /* SUDDIVISIONE DEI PROBLEMI:
 1)-Creare la struttura dati in JS e la base in HTML e CSS
-per poi vedere se funziona il tutto.
+per poi vedere se funziona il tutto. ******
 
 2)-Implementare una parte della logica cercado di far cambiare 
 l'immagine e quindi l'indice della array e avere delle funzioni next e pre
+che mi permettino di sommare il tutto e aggiungere l'indice al click
 
 3)- Vedere se si riesci ad aggiungere il timer e creazione dei puntini
 segnalibri. 
