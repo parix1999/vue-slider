@@ -20,7 +20,6 @@ const app = new Vue (
         data:{
             // Classi create con il js:
             contentBoxPic: 'box-pic',
-
             //-----------
             //Creazione Array:
             listaImmagini : [
@@ -29,7 +28,20 @@ const app = new Vue (
                 'img/forza-3.png',
                 'img/forza-4.png',
 
-            ] 
+            ],
+            // Mi serve un flag esterno per vedere la posizione della pic in array:
+            arrayPosition: 0, 
+        },
+        //Funzioni per il conteggio della array per le pic:
+        methods : {
+            //Una somma:
+            next:function (){
+                return this.arrayPosition++;
+            },
+            pre:function(){
+                return this.arrayPosition--;
+            }
         }
     }
+  
 );
