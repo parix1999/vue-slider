@@ -22,11 +22,11 @@
                 <div class="col-sm-12 col-md-12 offset-lg-2 col-lg-8">
                     <div :class="contentBoxPic">
                         <!-- freccia sx -->
-                        <i class="left fas fa-chevron-circle-left"></i>
+                        <i @click="pre" class="left fas fa-chevron-circle-left"></i>
                         <!-- immagine -->
-                        <img :src="listaImmagini[0]">
+                        <img :src="listaImmagini[arrayPosition]">
                         <!-- freccia dx -->
-                        <i class="right fas fa-chevron-circle-right"></i>
+                        <i @click="next" class="right fas fa-chevron-circle-right"></i>
 
                     </div>
                 </div>
