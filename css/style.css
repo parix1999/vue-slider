@@ -1,0 +1,14 @@
+/* Inzio classi js: */
+.box-pic{ 
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+
+}
+.box-pic img{ 
+    width:100%;
+}
+
+
+
+/* --------------------------------- */
