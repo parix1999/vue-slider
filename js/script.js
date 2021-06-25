@@ -18,7 +18,7 @@ const app = new Vue (
         el:'#app',
         data:{
             // Classi create con il js:
-            contentBoxPic: 'Box-pic',
+            contentBoxPic: 'box-pic',
 
             //-----------
             //Creazione Array:
