@@ -18,15 +18,17 @@
     <div id="app">
         <div class="content container">
             <div class="row">
-                
-                <div class="offset-2 col-8 " :class="contentBoxPic">
-                    <!-- freccia sx -->
-                    <i class="fas fa-chevron-circle-left"></i>
-                    <!-- immagine -->
-                    <img :src="listaImmagini[0]">
-                    <!-- freccia dx -->
-                    <i class="fas fa-chevron-circle-right"></i>
 
+                <div class="offset-2 col-8 ">
+                    <div :class="contentBoxPic">
+                        <!-- freccia sx -->
+                        <i class="left fas fa-chevron-circle-left"></i>
+                        <!-- immagine -->
+                        <img :src="listaImmagini[0]">
+                        <!-- freccia dx -->
+                        <i class="right fas fa-chevron-circle-right"></i>
+
+                    </div>
                 </div>
             </div>
         </div>
