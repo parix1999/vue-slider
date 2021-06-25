@@ -1,20 +1,25 @@
 /* Inzio classi js: */
 .box-pic{ 
     margin-top:30px; 
-    position:relative;
+    position: relative;
+    display:flex;
+    align-items: center;
 }
 .box-pic img{ 
     width:100%;
 }
 
 /* --------------------------------- */
+.box-pic .fas{
+    color:#fff;
+}
 .box-pic .left{
     font-size:40px;
     position: absolute;
-    left:0;
+    left:10px;
 }
 .box-pic .right{
     font-size:40px;
     position: absolute;
-    right:0;
+    right:10px;
 }
