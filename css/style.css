@@ -1,14 +1,20 @@
 /* Inzio classi js: */
 .box-pic{ 
-    margin-top:30px;
-    display: flex;
-    align-items: center;
-
+    margin-top:30px; 
+    position:relative;
 }
 .box-pic img{ 
     width:100%;
 }
 
-
-
 /* --------------------------------- */
+.box-pic .left{
+    font-size:40px;
+    position: absolute;
+    left:0;
+}
+.box-pic .right{
+    font-size:40px;
+    position: absolute;
+    right:0;
+}
