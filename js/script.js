@@ -32,13 +32,14 @@ const app = new Vue (
             // Mi serve un flag esterno per vedere la posizione della pic in array:
             arrayPosition: 0, 
         },
+        
         //Funzioni per il conteggio della array per le pic:
         methods : {
             //Una somma:
             //Se sono all'ultimo e premo avanti allora riparto dal primo
             next:function (){
                 this.arrayPosition++;
-                if(this.arrayPosition === listaImmagini.length){
+                if(this.arrayPosition > this.listaImmagini.length){
                     this.arrayPosition = 0;
                     return this.arrayPosition++;
                 }               
@@ -46,8 +47,8 @@ const app = new Vue (
             //Se sono al primo e premo indietro allora riparto dall'ultimo
             pre:function(){
                 this.arrayPosition--;
-                if (this.arrayPosition === 0) {
-                    this.arrayPosition = listaImmagini.length;
+                if (this.arrayPosition < 0) {
+                    this.arrayPosition = this.listaImmagini.length;
                     return this.arrayPosition--;
                 }
                 
