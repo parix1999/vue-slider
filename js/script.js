@@ -48,8 +48,7 @@ const app = new Vue (
             pre:function(){
                 this.arrayPosition--;
                 if (this.arrayPosition < 0) {
-                    this.arrayPosition = this.listaImmagini.length;
-                    return this.arrayPosition--;
+                    this.arrayPosition = this.listaImmagini.length - 1;
                 }
                 
             }
