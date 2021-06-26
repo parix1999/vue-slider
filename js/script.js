@@ -39,9 +39,9 @@ const app = new Vue (
             //Se sono all'ultimo e premo avanti allora riparto dal primo
             next:function (){
                 this.arrayPosition++;
-                if(this.arrayPosition > this.listaImmagini.length){
+                if(this.arrayPosition > this.listaImmagini.length - 1){
                     this.arrayPosition = 0;
-                    return this.arrayPosition++;
+                    
                 }               
             },
             //Se sono al primo e premo indietro allora riparto dall'ultimo
