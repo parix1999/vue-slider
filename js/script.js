@@ -35,11 +35,22 @@ const app = new Vue (
         //Funzioni per il conteggio della array per le pic:
         methods : {
             //Una somma:
+            //Se sono all'ultimo e premo avanti allora riparto dal primo
             next:function (){
-                return this.arrayPosition++;
+                this.arrayPosition++;
+                if(this.arrayPosition === listaImmagini.length){
+                    this.arrayPosition = 0;
+                    return this.arrayPosition++;
+                }               
             },
+            //Se sono al primo e premo indietro allora riparto dall'ultimo
             pre:function(){
-                return this.arrayPosition--;
+                this.arrayPosition--;
+                if (this.arrayPosition === 0) {
+                    this.arrayPosition = listaImmagini.length;
+                    return this.arrayPosition--;
+                }
+                
             }
         }
     }
