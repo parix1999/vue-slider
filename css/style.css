@@ -23,3 +23,10 @@
     position: absolute;
     right:10px;
 }
+@media screen and (max-width: 575px) {
+    .box-pic .fas{
+        color:rgba(0, 0, 0, .7);
+        font-size: 25px;
+    }
+
+}
