@@ -36,7 +36,14 @@
                 <div class="ball ">
                     <div class="padd" v:if ="listaImmagini > 0">
                         <span v-for ="palla in listaImmagini">
-                            <i class="prova fas fa-circle"></i>
+                            <!-- Se l'indice è uguale a dove si trova l'immagine allora colora di blue il pallino -->
+                            <span v-if="arrayPosition === arrayPosition" class="colorBlue">
+                                <i class="spazio-interno fas fa-circle"></i>
+                            </span>
+                            <!-- altrimenti rimane bianco: -->
+                            <span v-else>
+                                <i class="spazio-interno fas fa-circle"></i>
+                            </span>
                         </span>
                         
                     </div>
