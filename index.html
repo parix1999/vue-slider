@@ -33,11 +33,14 @@
             </div>
             <!-- Pallini -->
             <div class="cen">
-                <div class="ball ">
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
+                <div   class="ball ">
+                    <div v:if ="listaImmagini > 0">
+                        <div v-for ="palla in listaImmagini">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        
+                    </div>
+                    
 
                 </div>
 
