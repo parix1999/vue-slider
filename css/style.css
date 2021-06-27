@@ -42,6 +42,9 @@
     justify-content: center;
     display: flex;
 }
-.prova{
+.spazio-interno{
     padding: 0 5px 0 5px;
+}
+.colorBlue{
+    color:blue;
 }
