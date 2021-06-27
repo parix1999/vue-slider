@@ -30,7 +30,8 @@ const app = new Vue (
 
             ],
             // Mi serve un flag esterno per vedere la posizione della pic in array:
-            arrayPosition: 0, 
+            arrayPosition: 0,
+
         },
         
         //Funzioni per il conteggio della array per le pic:
@@ -51,7 +52,8 @@ const app = new Vue (
                     this.arrayPosition = this.listaImmagini.length - 1;
                 }
                 
-            }
+            },
+            
         }
     }
   
