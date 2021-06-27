@@ -35,12 +35,13 @@
     background-color:rgba(0, 0, 0, .7);
     border-radius:15px;
     margin-top:20px;
-    padding: 0 5px 0 5px;
     color:white;
-    
-
+    padding: 0 5px 0 5px;
 }
 .cen{
     justify-content: center;
     display: flex;
+}
+.prova{
+    padding: 0 5px 0 5px;
 }
