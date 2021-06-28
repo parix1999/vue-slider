@@ -128,7 +128,17 @@
 .xs img{
     width:100%;
 }
-
+@media all and (max-width:991px) {
+    .jumbo-tittle div:first-child{
+        font-size:30px;
+    }
+    .jumbo-tittle div:last-child{
+        font-size:20px;
+    }
+    .jumbo-end-text div:first-child{
+        font-size:20px;
+    }
+}
 
 
 
