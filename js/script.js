@@ -39,8 +39,12 @@ const app = new Vue (
             principale è pronto cioè app:
             */
             setInterval(() => {
-                this.next();
-            }, 3000)
+                this.arrayPosition++;
+                if(this.arrayPosition > this.listaImmagini.length - 1){
+                    this.arrayPosition = 0;
+                    
+                }  
+            }, 5000)
         },
         
         //Funzioni per il conteggio della array per le pic:
