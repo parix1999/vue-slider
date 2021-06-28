@@ -81,8 +81,8 @@
             <div class="cen">
                 <div class="ball ">
 
-                    <span v-for="palla in listaImmagini">
-                        <span v-if="arrayPosition === arrayPosition">
+                    <span v-for="(palla, index) in listaImmagini">
+                        <span v-if="index === arrayPosition">
                             <i class="spazio-interno fas fa-circle colorBlue"></i>
                         </span>
 
