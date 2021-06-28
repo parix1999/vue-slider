@@ -50,12 +50,14 @@
 }
 /* Classi nav-bar/Bootstrap */
 .box-logo{
-    width:10%;   
+    width:100px;   
 }
 .box-logo img{
     width:100%;   
 }
-
+.nav-dx i{
+    color:white;
+}
 
 
 
