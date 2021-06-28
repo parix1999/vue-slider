@@ -26,7 +26,7 @@
                         <!-- immagine -->
                         <img :src="listaImmagini[arrayPosition]">
                         <!-- freccia dx -->
-                        <i @click="next" class="right fas fa-chevron-circle-right"></i>
+                        <i v-on:[time]="time" @click="next" class="right fas fa-chevron-circle-right"></i>
 
                     </div>
                 </div>
@@ -34,20 +34,16 @@
             <!-- Pallini -->
             <div class="cen">
                 <div class="ball ">
-                    <div class="padd" v:if ="listaImmagini > 0">
-                        <span v-for ="palla in listaImmagini">
-                            <!-- Se l'indice è uguale a dove si trova l'immagine allora colora di blue il pallino -->
-                            <span v-if="arrayPosition === arrayPosition" class="colorBlue">
-                                <i class="spazio-interno fas fa-circle"></i>
-                            </span>
-                            <!-- altrimenti rimane bianco: -->
-                            <span v-else>
-                                <i class="spazio-interno fas fa-circle"></i>
-                            </span>
+
+                    <span v-for="palla in listaImmagini">
+                        <span v-if="arrayPosition === arrayPosition">
+                            <i class="spazio-interno fas fa-circle colorBlue"></i>
                         </span>
-                        
-                    </div>
-                    
+
+                        <span v-else>
+                            <i class="spazio-interno fas fa-circle"></i>
+                        </span>
+                    </span>
 
                 </div>
 
