@@ -70,3 +70,22 @@
     font-size:12px;
 }
 /* ------------------ */
+/* Classi Jumbo  */
+.jumbo{
+    background-image: url('../img/jumbo.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+}
+.bg-text-dark{
+    background-color: rgba(0, 0, 0, .7);
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+/* ---------------- */
