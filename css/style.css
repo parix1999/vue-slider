@@ -175,12 +175,6 @@ body{
 }
 /* -------------------------------*/
 /* Classi testo sotto jumbo: */
-.middle{
-    width:50px;
-    height:10px;
-    background-color: #9bf00b;
-    border-radius: 10px;
-}
 .text{
     color:white;
     text-align: center;
@@ -188,7 +182,24 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
+.first-part{
+    margin:50px 0 100px 0; 
+    font-weight: bold;
+}
+.middle{
+    width:50px;
+    height:10px;
+    background-color: #9bf00b;
+    border-radius: 10px;
+    margin:10px 0 10px 0;
+}
+.second-part div:first-child{
+    font-size: 35px;
+    font-weight: bold;
+}
+.terza-parte div:first-child{
+    margin-bottom: 100px;
+}
 
 
 /* -------------------------------*/
