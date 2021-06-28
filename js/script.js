@@ -31,7 +31,16 @@ const app = new Vue (
             ],
             // Mi serve un flag esterno per vedere la posizione della pic in array:
             arrayPosition: 0,
-
+        
+        },
+        created() {
+            /* Tutto quello che si scrive qua dentro viene lanciato
+            dopo la creazione del DOM, quindi della pagina => il componente
+            principale è pronto cioè app:
+            */
+            setInterval(() => {
+                this.next();
+            }, 3000)
         },
         
         //Funzioni per il conteggio della array per le pic:
@@ -53,6 +62,7 @@ const app = new Vue (
                 }
                 
             },
+            
             
         }
     }
