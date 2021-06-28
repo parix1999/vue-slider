@@ -185,6 +185,7 @@ body{
 .first-part{
     margin:50px 0 100px 0; 
     font-weight: bold;
+    font-size:20px;
 }
 .middle{
     width:50px;
@@ -199,7 +200,26 @@ body{
 }
 .terza-parte div:first-child{
     margin-bottom: 100px;
+    font-size:20px;
+}
+.terza-parte div:last-child{
+    font-weight: bold;
+    font-size:20px;
 }
 
+@media all and (max-width:575px) {
+    .first-part{
+        font-size: 15px;
+    }
+    .second-part div:first-child{
+        font-size: 25px;   
+    }
+    .terza-parte div:first-child{
+        font-size: 15px;
+    }
+    .terza-parte div:last-child{
+        font-size: 15px;
+    }  
+}
 
 /* -------------------------------*/
