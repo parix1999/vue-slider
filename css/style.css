@@ -39,8 +39,8 @@
     padding: 0 5px 0 5px;
 }
 .cen{
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 .spazio-interno{
     padding: 0 5px 0 5px;
@@ -55,10 +55,18 @@
 .box-logo img{
     width:100%;   
 }
-.nav-dx i{
+.nav-dx{
     color:white;
 }
-
-
-
+.login{
+    text-decoration: underline;
+    padding-left:10px;
+}
+.text-color{
+    color:green;
+}
+.text-color i{
+    color:white;
+    font-size:12px;
+}
 /* ------------------ */
