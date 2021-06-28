@@ -86,22 +86,44 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:15px;
+    padding:15px 5px 15px 5px;
+    margin-top:200px;
 
 }
 .jumbo-tittle div:first-child{
-    font-size:35px;
+    font-size:40px;
     font-weight: bold;
     margin-bottom:20px;
 }
+.jumbo-tittle div:last-child{
+    font-size:25px;
+    margin-bottom:20px;
+}
+.button-jumbo{
+    background-color:#9bf00b;
+    color:#054b16;
+    padding:5px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.jumbo-end-text div:first-child{
+    font-weight:bold;
+    font-size:25px;
+}
+.jumbo-end-text div:last-child a{
+    color:#9bf00b;
+}
+
 .game-pass {
     width:200px;
+    margin-bottom:20px;
 }
 .game-pass img{
     width:100%;
 }
 .xs{
     width:100px;
+    margin-top:20px;
 }
 .xs img{
     width:100%;
