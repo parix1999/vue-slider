@@ -1,3 +1,7 @@
+body{
+    background-image:url(../img/bg-page.jpeg);
+}
+
 /* Inzio classi js: */
 .box-pic{ 
     margin-top:30px; 
@@ -76,7 +80,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height:700px;
 }
 .bg-text-dark{
     background-color: rgba(0, 0, 0, .7);
@@ -88,6 +91,7 @@
     justify-content: center;
     padding:15px 5px 15px 5px;
     margin-top:200px;
+    margin-bottom:100px;
 
 }
 .jumbo-tittle div:first-child{
@@ -169,8 +173,11 @@
         font-size:10px;
     }
 }
+/* -------------------------------*/
+/* Classi testo sotto jumbo: */
 
 
 
 
-/* ---------------- */
+
+/* -------------------------------*/
