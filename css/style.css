@@ -1,4 +1,4 @@
-body{
+.bg-image{
     background-image:url(../img/bg-page.jpeg);
 }
 
@@ -45,6 +45,7 @@ body{
 .cen{
     display: flex;
     justify-content: center;
+    margin-bottom:50xpx;
 }
 .spazio-interno{
     padding: 0 5px 0 5px;
@@ -221,5 +222,40 @@ body{
         font-size: 15px;
     }  
 }
+/* -------------------------------*/
+/* Classi per il gioco, premium o standard */
+.content-gioco{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+}
+.gioco{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.vetrine{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.cen-logo{
+    display: flex;
+}
+.microsoft, .steam{
+    width:100px;
+}
+.microsoft img{
+    width:100%;
+}
+.steam img{
+    width:100%;
+}
+
+
+
+
+
 
 /* -------------------------------*/
