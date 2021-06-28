@@ -139,6 +139,36 @@
         font-size:20px;
     }
 }
+@media all and (max-width:767px) {
+    .bg-text-dark{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .jumbo-tittle div:first-child{
+        font-size:25px;
+    }
+    .jumbo-tittle div:last-child{
+        font-size:15px;
+    }
+    .jumbo-end-text div:first-child{
+        font-size:15px;
+    }
+}
+@media all and (max-width:575px) {
+    .bg-text-dark{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .jumbo-tittle div:first-child{
+        font-size:20px;
+    }
+    .jumbo-tittle div:last-child{
+        font-size:10px;
+    }
+    .jumbo-end-text div:first-child{
+        font-size:10px;
+    }
+}
 
 
 
