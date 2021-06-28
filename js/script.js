@@ -27,6 +27,10 @@ const app = new Vue (
                 'img/forza-2.png',
                 'img/forza-3.png',
                 'img/forza-4.png',
+                'img/forza-5.png',
+                'img/forza-6.png',
+                'img/forza-7.png',
+                'img/forza-8.png',
 
             ],
             // Mi serve un flag esterno per vedere la posizione della pic in array:
