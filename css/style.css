@@ -82,6 +82,26 @@
     background-color: rgba(0, 0, 0, .7);
     color:white;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:15px;
+
+}
+.jumbo-tittle div:first-child{
+    font-size:35px;
+}
+.game-pass {
+    width:200px;
+}
+.game-pass img{
+    width:100%;
+}
+.xs{
+    width:200px;
+}
+.xs img{
+    width:100%;
 }
 
 
