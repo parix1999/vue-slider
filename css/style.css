@@ -223,7 +223,7 @@
     }  
 }
 /* -------------------------------*/
-/* Classi per il gioco, premium o standard */
+/* Classi per il testo, premium o standard */
 .content-gioco{
     display:flex;
     flex-direction: column;
@@ -252,6 +252,54 @@
 .steam img{
     width:100%;
 }
+/* -------------------------------*/
+/* Classi per il premium o standard */
+.box-image-game {
+    width:400px;
+    margin-top:100px;
+}
+.text-box{
+    margin-top:100px;
+}
+.box-image-game img{
+    width:100%;
+}
+.titolo-sottotitolo div:first-child{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.titolo-sottotitolo div:last-child{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-button div:last-child{
+    margin-top:10px;
+    background-color:#9bf00b;
+    color:#054b16;
+    padding:5px;
+    font-weight:bold;
+    width:300px;
+}
+.second-text div:first-child{
+    font-size:25px;
+    font-weight: bold;
+    margin:10px 0 10px 0;
+}
+.price-bottone div:first-child{
+    margin-top:10px;
+}
+.price-bottone div:last-child{
+    background-color:#9bf00b;
+    color:#054b16;
+    padding:5px;
+    font-weight:bold;
+    width:150px;
+}
+
+
+
 
 
 
