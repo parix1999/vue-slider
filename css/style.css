@@ -84,12 +84,15 @@
     text-align: center;
     display:flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding:15px;
 
 }
 .jumbo-tittle div:first-child{
     font-size:35px;
+    font-weight: bold;
+    margin-bottom:20px;
 }
 .game-pass {
     width:200px;
@@ -98,7 +101,7 @@
     width:100%;
 }
 .xs{
-    width:200px;
+    width:100px;
 }
 .xs img{
     width:100%;
